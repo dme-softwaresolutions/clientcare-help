@@ -3,6 +3,8 @@
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 This text should show up if this is really markdown.
 
+![New address dialog](img/newaddress.png)
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
