@@ -14,8 +14,11 @@ See this is on a new line without a space.
 
 ## Address Information
 
-Maybe put an address. Let's test an image while we are at it.
-![Add a new address](../img/newaddress.png)
+Maybe put an address.
+
+Let's test an image while we are at it.
+
+![New address dialog](/img/newaddress.png)
 
 ## Here is another heading
 ### And here is another
