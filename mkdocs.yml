@@ -5,5 +5,4 @@ nav:
     - Home: index.md
     - User Guide: profile.md
        
-theme: 
-    name: readthedocs
+theme: readthedocs
