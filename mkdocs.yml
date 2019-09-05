@@ -12,4 +12,5 @@ nav:
     - Administrator Guides:
         - Dashboard: admin_dashboard.md
         - My Account: admin_myaccount.md
+    - Markdown Cheatsheet: md_sample.md
 theme: windmill
