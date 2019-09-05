@@ -9,4 +9,5 @@ nav:
         - Editting your Profile: profile.md
         - Editting your Profile: profile.md
        
-theme: readthedocs
+theme: 
+    name: readthedocs
