@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://dme-softwaresolutions.github.io/clientcare-help/sw_resources/">
     <link rel="shortcut icon" href="../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Resources - DMECC - Help Docs</title>
+    <title>Resources - DMECC - Help Documentation</title>
     <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
@@ -32,7 +32,22 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Resources", url: "#_top", children: [
+          {title: "Client Types", url: "#_top", children: [
+          ]},
+          {title: "Sources of Referral", url: "#sources-of-referral", children: [
+          ]},
+          {title: "Admission", url: "#admission", children: [
+              {title: "Admission Reasons", url: "#admission-reasons" },
+          ]},
+          {title: "Discharge", url: "#discharge", children: [
+          ]},
+          {title: "Service Types", url: "#service-types", children: [
+          ]},
+          {title: "Service Tasks", url: "#service-tasks", children: [
+              {title: "Service Task List", url: "#service-task-list" },
+              {title: "Inactive Tasks", url: "#inactive-tasks" },
+          ]},
+          {title: "Reasons for No Service", url: "#reasons-for-no-service", children: [
           ]},
         ];
 
@@ -80,7 +95,41 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="resources">Resources</h1>
+    <h1 id="client-types">Client Types</h1>
+<p>This table is a list of client types, and their descriptions as defined by the Home and Client Care program.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
+<h1 id="sources-of-referral">Sources of Referral</h1>
+<p>This table is a list of referrel sources, and their definitions as defined by the Home and Client Care program.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
+<h1 id="admission">Admission</h1>
+<p>This table is a list of adminission types, and their definitions as defined by the Home and Client Care program.
+The options available when admitting a client into the program are taken from this table.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
+<h2 id="admission-reasons">Admission Reasons</h2>
+<p>This table is a list of primary reasons for home care, and their definitions as defined by the Home and Client Care program.
+The options available when admitting a client into the program are taken from this table.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
+<h1 id="discharge">Discharge</h1>
+<p>This table is a list of discharge types, and their definitions as defined by the Home and Client Care program.
+The options available when discharing a client from an admission are taken from this table.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
+<h1 id="service-types">Service Types</h1>
+<p>This table is a list of services, and their definitions as defined by the Home and Client Care program.
+These are the services that can be offered to clients. Administrators use this list to generate "Service Task" definitions (see below).</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government, but administrators do have control over "Service Tasks".</p>
+<h1 id="service-tasks">Service Tasks</h1>
+<h3 id="service-task-list">Service Task List</h3>
+<p>Service Tasks are defined by your organization's "Primary Site Adminstrator" (usually a manager).</p>
+<p>Each service task corresponds directly to a 'Service Type'. Your organization administrator can add a 'default time', which is an estimation of how long it will take to complete that task.
+They can also add a description, to provide any extra details.</p>
+<p>Service tasks are used by administrators to create a Plan of Care.</p>
+<h3 id="inactive-tasks">Inactive Tasks</h3>
+<p>If a service task is out of date or no longer being used, it can be set as "inactive" by your administrator.
+Inactive tasks cannot be used to create new Plans of Care, but they will still remain in any existing Plans of Care.</p>
+<h1 id="reasons-for-no-service">Reasons for No Service</h1>
+<p>This table is a list "reasons for no service", as defined by the Home and Client Care program.
+The options available when declining to perform a service are stored in this table.</p>
+<p>These specficiations cannot be changed by administrators as they are defined by the government.</p>
 
   <br>
     
