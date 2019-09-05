@@ -1,4 +1,4 @@
-![DMECC logo](https://www.dmecc.ca/assets/images/dme_client_care_logo.jpg "DMECC logo")
+![DMECC logo](img/dme_client_care_logo.jpg "DMECC logo")
 
 # Help Guides
 
