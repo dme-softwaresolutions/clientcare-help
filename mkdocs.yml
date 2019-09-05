@@ -9,3 +9,5 @@ nav:
         - Clients: sw/clients.md
         - Work: sw/work.md
         - Resources: sw/resources.md
+    - Administrator Guides:
+        - Dashboard: admin/dashboard.md
