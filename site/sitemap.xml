@@ -6,7 +6,37 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://dme-softwaresolutions.github.io/clientcare-help/profile/</loc>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/sw/dashboard/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/sw/myaccount/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/sw/clients/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/sw/work/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/sw/resources/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/admin/dashboard/</loc>
+     <lastmod>2019-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/admin/myaccount/</loc>
      <lastmod>2019-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url>

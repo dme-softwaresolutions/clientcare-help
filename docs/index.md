@@ -2,7 +2,7 @@
 
 This text should show up if this is really markdown.
 
-![New address dialog](img/newaddress.png)
+![New address dialog](img/newaddress.PNG)
 
 ## Mkdocs Project layout
 
