@@ -6,4 +6,6 @@ nav:
     - Support Worker Guides:
         - Dashboard: sw/dashboard.md
         - My Account: sw/myaccount.md
-        
+        - Clients: sw/clients.md
+        - Work: sw/work.md
+        - Resources: sw/resources.md
