@@ -7,6 +7,7 @@ Any information displayed under "Profile" has been entered into the DMECC applic
 # Change Password
 
 To change your password:
+
 - Enter your current password,
 - Then enter a new password,
 - Finally, repeat your password to make sure its correct.

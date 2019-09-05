@@ -6,10 +6,11 @@ This is where you will find a list of your clients (example below).
 
 ![myclient list view](img/sw_myclients_listview.PNG "Example of a 'My Clients' List")
 
->The clients in this table may not be all of the clients in the organization; your DMECC administrator (or manager) chooses which clients you have access to. If you do not see any clients listed in this table, or if you think someone is missing from this table, contact your organization's DMECC administrator so that they can give you access.
+>The clients in this table may not be all of the clients in your organization; your DMECC administrator (or manager) chooses which clients you have access to. If you do not see any clients listed in this table, or if you think someone is missing from this table, contact your organization's DMECC administrator so that they can give you access.
 
 ### Viewing Client Details
-When you are granted access to client information, you can **click on the blue folder** (see "My Clients" image above) to view important details about the client. Here is an example of a ficticious client's details page:
+When you are granted access to client information, you can **click on the blue folder** (see "My Clients" image above) to view important details about the client.
+For example, after clicking on the blue folder next to "Arabel Archibold" (in the example above), we can see his details page:
 
 ![example client details view](img/sw_clientdetails.PNG)
 
