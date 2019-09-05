@@ -1,12 +1,10 @@
-# DMECC Help Documentation
-
 >This website is your source for all things [DMECC](https://dmecc.ca).
 
 >**Support Workers:** If you are using the DMECC application as a Support Worker (PSW, RPN, etc) please refer to the "Support Worker Guides" menu item.
 
 >**Managers:** If you are responsible for administering the DMECC application, please refer to the "Administrator Guides" menu item.
 
----
+
 
 ## About DMECC
 
