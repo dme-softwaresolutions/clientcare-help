@@ -1,7 +1,7 @@
 site_name: DMECC - Help Docs
-site_url: https://dme-softwaresolutions.github.io/clientcare-help/docs
+site_url: https://dme-softwaresolutions.github.io/clientcare-help
 
 nav:
     - Home: index.md
     - User Guide:
-        - 'Editting your Profile': 'profile.md'
+        - Editting your Profile: profile.md
