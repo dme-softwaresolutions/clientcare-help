@@ -4,5 +4,3 @@ site_url: https://dme-softwaresolutions.github.io/clientcare-help
 nav:
     - Home: index.md
     - User Guide: profile.md
-       
-theme: windmill
