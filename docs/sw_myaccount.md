@@ -1,25 +1,18 @@
-# Editting your Profile
+# Profile
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+You can view your personal information under "My Account > Profile".
 
-Things only show up on a new line if you put a space between the lines.
-See this is on a new line without a space.
+Any information displayed under "Profile" has been entered into the DMECC applicaiton by an adminstrator at your organization. If you see any discrepencies or incorrect information, please contact your administrator.
 
-## Uploading a profile picture
+# Change Password
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+To change your password:
+- Enter your current password,
+- Then enter a new password,
+- Finally, repeat your password to make sure its correct.
 
-## Address Information
+Click "Submit", and your password will be updated.
 
-Maybe put an address.
+# Logout
 
-Let's test an image while we are at it.
-
-![Here is some alt text](img/newaddress.PNG)
-
-## Here is another heading
-### And here is another
-With normal text here.
+You can log out from this section of the menu, or by clicking on your name in the top right corner, and selecting "Log Out".
