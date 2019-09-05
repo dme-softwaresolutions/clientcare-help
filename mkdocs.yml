@@ -1,5 +1,5 @@
 site_name: DMECC - Help Docs
-site_url: https://dme-softwaresolutions.github.io/clientcare-help
+site_url: https://dme-softwaresolutions.github.io/clientcare-help/docs
 
 nav:
     - Home: index.md

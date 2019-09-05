@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://dme-softwaresolutions.github.io/clientcare-help/</loc>
-     <lastmod>2019-09-02</lastmod>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/docs/</loc>
+     <lastmod>2019-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://dme-softwaresolutions.github.io/clientcare-help/profile/</loc>
-     <lastmod>2019-09-02</lastmod>
+     <loc>https://dme-softwaresolutions.github.io/clientcare-help/docs/profile/</loc>
+     <lastmod>2019-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
