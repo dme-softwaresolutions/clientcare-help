@@ -18,7 +18,7 @@ Maybe put an address.
 
 Let's test an image while we are at it.
 
-![New address dialog](/img/newaddress.PNG)
+<img src="../img/newaddress.PNG" width="400"/>
 
 ## Here is another heading
 ### And here is another
