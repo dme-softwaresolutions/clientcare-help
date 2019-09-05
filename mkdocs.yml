@@ -1,4 +1,4 @@
-site_name: DMECC - Help Docs
+site_name: DMECC - Help Documentation
 site_url: https://dme-softwaresolutions.github.io/clientcare-help
 
 nav:
@@ -13,4 +13,5 @@ nav:
         - Dashboard: admin_dashboard.md
         - My Account: admin_myaccount.md
     - Markdown Cheatsheet: md_sample.md
-theme: windmill
+theme:
+    name: windmill
