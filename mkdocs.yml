@@ -3,4 +3,7 @@ site_url: https://dme-softwaresolutions.github.io/clientcare-help
 
 nav:
     - Home: index.md
-    - User Guide: profile.md
+    - Support Worker Guides:
+        - Dashboard: sw/dashboard.md
+        - My Account: sw/myaccount.md
+        
