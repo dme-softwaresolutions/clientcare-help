@@ -18,7 +18,7 @@ Maybe put an address.
 
 Let's test an image while we are at it.
 
-<img src="../img/newaddress.PNG" width="400"/>
+![](../img/newaddress.PNG)
 
 ## Here is another heading
 ### And here is another
