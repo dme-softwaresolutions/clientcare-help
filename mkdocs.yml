@@ -11,4 +11,5 @@ nav:
         - Resources: sw/resources.md
     - Administrator Guides:
         - Dashboard: admin/dashboard.md
+        - My Account: admin/myaccount.md
 theme: windmill
