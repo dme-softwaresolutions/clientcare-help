@@ -3,5 +3,5 @@ site_url: https://dme-softwaresolutions.github.io/clientcare-help
 
 nav:
     - Home: index.md
-    - User Guide:
+    - User Guide: profile.md
     - Editting your Profile: profile.md
