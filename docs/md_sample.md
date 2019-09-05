@@ -1,161 +1,410 @@
-This page is for mark down sample purposes. Pull syntax from here to add it to your actual doc pages.
+This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 
-An h1 header
-============
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+[Lists](#lists)  
+[Links](#links)  
+[Images](#images)  
+[Code and Syntax Highlighting](#code)  
+[Tables](#tables)  
+[Blockquotes](#blockquotes)  
+[Inline HTML](#html)  
+[Horizontal Rule](#hr)  
+[Line Breaks](#lines)  
+[YouTube Videos](#videos)  
 
-Paragraphs are separated by a blank line.
+<a name="headers"/>
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+## Headers
 
-  * this one
-  * that one
-  * the other one
+```no-highlight
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+Alternatively, for H1 and H2, an underline-ish style:
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+Alt-H1
+======
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+Alt-H2
+------
+```
 
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
+Alternatively, for H1 and H2, an underline-ish style:
 
-An h2 header
-------------
+Alt-H1
+======
 
-Here's a numbered list:
+Alt-H2
+------
 
- 1. first item
- 2. second item
- 3. third item
+<a name="emphasis"/>
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+## Emphasis
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+```no-highlight
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+Combined emphasis with **asterisks and _underscores_**.
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+Strikethrough uses two tildes. ~~Scratch this.~~
+```
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
 
 
+<a name="lists"/>
 
-### An h3 header ###
+## Lists
 
-Now a nested list:
+(In this example, leading and trailing spaces are shown with with dots: ⋅)
 
- 1. First, get these ingredients:
+```no-highlight
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
-      * carrots
-      * celery
-      * lentils
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
- 2. Boil some water.
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+```
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.
 
-    Do not bump wooden spoon or it will fall.
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+   To have a line break without a paragraph, you will need to use two trailing spaces.  
+   Note that this line is separate, but within the same paragraph.  
+   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
 
-[^1]: Some footnote text.
+<a name="links"/>
 
-Tables can look like this:
+## Links
 
-Name           Size  Material      Color
-------------- -----  ------------  ------------
-All Business      9  leather       brown
-Roundabout       10  hemp canvas   natural
-Cinderella       11  glass         transparent
+There are two ways to create links.
 
-Table: Shoes sizes, materials, and colors.
+```no-highlight
+[I'm an inline-style link](https://www.google.com)
 
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
---------  -----------------------
-Keyword   Text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-A horizontal rule follows.
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+```
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+<a name="images"/>
+
+## Images
+
+```no-highlight
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+```
+
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+<a name="code"/>
+
+## Code and Syntax Highlighting
+
+Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+
+```no-highlight
+Inline `code` has `back-ticks around` it.
+```
+
+Inline `code` has `back-ticks around` it.
+
+Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+
+<pre lang="no-highlight"><code>```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+```
+</code></pre>
+
+
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+But let's throw in a <b>tag</b>.
+```
+
+
+<a name="tables"/>
+
+## Tables
+
+Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+```no-highlight
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+```
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+<a name="blockquotes"/>
+
+## Blockquotes
+
+```no-highlight
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+```
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+
+<a name="html"/>
+
+## Inline HTML
+
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+
+```no-highlight
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+```
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<a name="hr"/>
+
+## Horizontal Rule
+
+```
+Three or more...
+
+---
+
+Hyphens
 
 ***
 
-Here's a definition list:
+Asterisks
 
-apples
-  : Good for making applesauce.
+___
 
-oranges
-  : Citrus!
+Underscores
+```
 
-tomatoes
-  : There's no "e" in tomatoe.
+Three or more...
 
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
+---
 
-Here's a "line block" (note how whitespace is honored):
+Hyphens
 
-| Line one
-|   Line too
-| Line tree
+***
 
-and images can be specified like so:
+Asterisks
 
-![example image](example-image.jpg "An exemplary image")
+___
 
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
+Underscores
 
-$$I = \int \rho R^{2} dV$$
+<a name="lines"/>
 
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+## Line Breaks
+
+My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
+
+Here are some things to try out:
+
+```
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+```
+
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also begins a separate paragraph, but...  
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+
+(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+
+<a name="videos"/>
+
+## YouTube Videos
+
+They can't be added directly but you can add an image with a link to the video like this:
+
+```no-highlight
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+
+Or, in pure Markdown, but losing the image sizing and border:
+
+```no-highlight
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```
+
+Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
+
+---
+
+License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
