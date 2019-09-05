@@ -18,7 +18,7 @@ Maybe put an address.
 
 Let's test an image while we are at it.
 
-![Here is some alt text](/img/newaddress.PNG)
+![Here is some alt text](img/newaddress.PNG)
 
 ## Here is another heading
 ### And here is another

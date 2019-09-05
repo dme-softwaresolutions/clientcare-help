@@ -4,12 +4,12 @@ site_url: https://dme-softwaresolutions.github.io/clientcare-help
 nav:
     - Home: index.md
     - Support Worker Guides:
-        - Dashboard: sw/dashboard.md
-        - My Account: sw/myaccount.md
-        - Clients: sw/clients.md
-        - Work: sw/work.md
-        - Resources: sw/resources.md
+        - Dashboard: sw_dashboard.md
+        - My Account: sw_myaccount.md
+        - Clients: sw_clients.md
+        - Work: sw_work.md
+        - Resources: sw_resources.md
     - Administrator Guides:
-        - Dashboard: admin/dashboard.md
-        - My Account: admin/myaccount.md
+        - Dashboard: admin_dashboard.md
+        - My Account: admin_myaccount.md
 theme: windmill
