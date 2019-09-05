@@ -1,18 +1,10 @@
 # DME Client Care
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
 This text should show up if this is really markdown.
 
 ![New address dialog](img/newaddress.png)
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
+## Mkdocs Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
