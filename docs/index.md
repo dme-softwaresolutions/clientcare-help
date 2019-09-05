@@ -1,16 +1,15 @@
-# DME Client Care
+![DME logo](https://www.dmecc.ca/assets/images/dme_client_care_logo.jpg)
 
-This text should show up if this is really markdown.
+# Help Guides
 
-![New address dialog](img/newaddress.PNG)
+### This website is your source for all things [DMECC](https://dmecc.ca).
 
-## Mkdocs Project layout
+If you are using the DMECC application as a Support Worker (PSW, RPN, etc) please refer to the "Support Worker Guide" menu item above.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-		
-## Here is another heading
-### And here is another
-With normal text here.
+If you are responsible for administering the DMECC application, please refer to the "Administrator Guide" menu item above.
+
+
+
+
+---
+© Copyright Data Made Easy Inc. 2019 - All Rights Reserved
