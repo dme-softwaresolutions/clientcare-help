@@ -10,8 +10,8 @@ nav:
         - Work: sw_work.md
         - Resources: sw_resources.md
     - Administrator Guides:
-        - Dashboard: admin_dashboard.md
-        - My Account: admin_myaccount.md
+        - Dashboard - Under Construction: admin_dashboard.md
+        - My Account - Under Construction: admin_myaccount.md
     - Markdown Cheatsheet: md_sample.md
 theme:
     name: windmill
