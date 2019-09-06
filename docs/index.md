@@ -1,4 +1,4 @@
-# Welcome to the [DMECC](https://dmecc.ca) help guides.
+# Welcome to [DMECC](https://dmecc.ca)'s Help Guides
 
 >**Support Workers:** If you are using the DMECC application as a Support Worker (PSW, RPN, etc) please refer to the "Support Worker Guides" menu item.
 
@@ -6,7 +6,7 @@
 
 ## About DMECC
 
-The DMECC - *Data Made Easy Client Care Application* is a web based application designed to faciliate client care record keeping, specifically for the Government of Canada's [First Nations and Inuit Home and Community Care](https://www.canada.ca/en/indigenous-services-canada/services/first-nations-inuit-health/health-care-services/home-community-care.html) program.
+The DMECC - *Data Made Easy Client Care* Application is a web based application designed to faciliate client care record keeping, specifically for the Government of Canada's [First Nations and Inuit Home and Community Care](https://www.canada.ca/en/indigenous-services-canada/services/first-nations-inuit-health/health-care-services/home-community-care.html) program.
 
 >Log In to DMECC at [dmecc.ca](https://dmecc.ca)
 
