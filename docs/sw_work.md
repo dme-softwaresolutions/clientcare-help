@@ -13,25 +13,34 @@ Below is an example of a Work History table, with four work group records visibl
 	
 ![my work list view](img/sw_mywork_workhistorylist.PNG "Example of a 'Work History' table")
 
-## Locking Work
+## Locking
 
 Work-group records much be approved by an administrator (or manager) before they can be included in your organizations monthly reports.
 When you are satisfied with the contents of your work-group record, please lock the record.
 
 > To Lock a work-group record, click the **blue lock button**.
 
-Once a work-group record has been locked by a Support Worker, an administrator can approve the record.
+Once a work-group record has been locked by a Support Worker, an administrator can approve the record. The support worker will no longer be able to alter the work-group record unless it is unlocked by the administrator.
 
 *Tip: If you need to unlock a work-group, contact your administrator. Administrators can un-lock work-group records as long as they have not already been approved.*
 
-## Editing Work
+## Editing
 
-If you need to make any changes to your work-group records, you can do so here.
+If you need to make any changes to your work-group records, you can edit them.
 
 > To Edit a work-group record, click the **green pen-and-paper button**.
 
+You can edit a work-group record through your work history list as long as the record is unlocked. If you do not see an edit button, then the record has been locked, and you must contact your administrator to get it unlocked.
 
-## Deleting Work
+When you are finished editting, click the "Save" button at the bottom of the page.
+
+## Deleting
+
+You can delete work that has not been locked.
+
+> To Delete a work-group record, click the **red trash can**.
+
+Once you have deleted a record, you cannot go back or undo; the record is gone for ever. Be certain. :)
 
 ## Filtering the Table
 
